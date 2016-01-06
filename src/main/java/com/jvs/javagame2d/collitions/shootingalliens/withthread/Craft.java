@@ -1,4 +1,4 @@
-package com.jvs.javagame2d.collitions.shootingalliens.inthread;
+package com.jvs.javagame2d.collitions.shootingalliens.withthread;
 
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;

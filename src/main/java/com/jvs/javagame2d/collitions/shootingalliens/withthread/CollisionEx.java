@@ -1,11 +1,11 @@
-package com.jvs.javagame2d.collitions.shootingalliens.inthread;
+package com.jvs.javagame2d.collitions.shootingalliens.withthread;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 
 import org.apache.log4j.Logger;
 
-import com.jvs.javagame2d.collitions.shootingalliens.inthread.Board;
+import com.jvs.javagame2d.collitions.shootingalliens.withthread.Board;
 
 public class CollisionEx extends JFrame {
 	final static Logger log = Logger.getLogger(CollisionEx.class);

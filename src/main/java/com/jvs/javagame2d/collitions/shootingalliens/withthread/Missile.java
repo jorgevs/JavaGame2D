@@ -1,4 +1,4 @@
-package com.jvs.javagame2d.collitions.shootingalliens.inthread;
+package com.jvs.javagame2d.collitions.shootingalliens.withthread;
 
 import org.apache.log4j.Logger;
 
