@@ -25,17 +25,17 @@ public class SwingPaintDemo2 {
 		System.out.println("Created GUI on EDT? " + SwingUtilities.isEventDispatchThread());
 		JFrame f = new JFrame("Swing Paint Demo");
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		f.add(new MyPanel());
+		f.add(new MyPanel1());
 		f.setSize(250, 250);
 		f.setVisible(true);
 	}
 	
 }
 
-class MyPanel extends JPanel {
+class MyPanel1 extends JPanel {
 	RedSquare redSquare = new RedSquare();
 
-	public MyPanel() {
+	public MyPanel1() {
 		setBorder(BorderFactory.createLineBorder(Color.black));
 		
 		addMouseListener(new MouseAdapter() {
